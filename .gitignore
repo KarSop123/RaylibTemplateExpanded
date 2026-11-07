@@ -1,0 +1,21 @@
+# Foldery budowania
+build/
+build-*/
+out/
+cmake-build-*/
+
+# Pliki generowane przez CMake
+CMakeUserPresets.json
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+.cache/
+
+# Pliki edytorow / IDE
+.vs/
+.vscode/
+.idea/
+*.user
+
+# WAZNE: folder assets/ celowo NIE jest tutaj ignorowany,
+# zeby Twoje pliki graficzne/dzwiekowe zawsze trafialy do repo.
